@@ -4,7 +4,7 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## 프로젝트 개요
 
-LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍 (4세션 × 1.5시간).
+LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍 (5세션 × 1.5시간).
 커리큘럼 자체가 Claude Code Skills로 구성되어 있다. 슬라이드가 아니라 `/session1-onboarding` 같은 Skill을 실행하면 Claude가 직접 가르친다.
 
 ## 참가 대상
@@ -33,6 +33,31 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 ## 워크숍 목표
 
 **최종 결과 이미지**: 터미널 하나에서 데이터 분석, CS 응답 초안, 리포트 작성, Slack 요약 등 다양한 업무를 병렬 처리하며 10x 생산성을 확보하는 것. 개발자 도움 없이, 각자가 직접.
+
+## 세션별 스킬 상태
+
+| 세션 | 스킬 폴더 | 상태 | 비고 |
+|------|----------|------|------|
+| Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
+| Session 2 | `session2-tools/` | 완성 (2026-02-19 전면 리뉴얼) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
+| Session 3 | `session3-automation/` | 리뉴얼 필요 | STOP PROTOCOL 미강화 |
+| Session 4 | `session4-showcase/` | 재구성 필요 | 실제 Session 5 내용 — 이름 변경 + session4-polish 신규 생성 필요 |
+| Session 5 | (session4-showcase 이름 변경 예정) | 미완성 | |
+
+## 핵심 설계 원칙
+
+- **STOP PROTOCOL**: 각 블록 = Phase A(설명+실행 안내) → STOP → Phase B(퀴즈+다음 블록 이동) 2턴 구조 필수. `session1-onboarding/SKILL.md` 및 `session2-tools/SKILL.md` 참고
+- **금지 사항 명시**: STOP 전 AskUserQuestion 금지 / 퀴즈 금지 / "실행했나요?" 금지 / 다음 블록 언급 금지 — 미명시 시 AI가 위반함
+- **공식 문서 URL 필수**: 각 블록 Phase A 시작 시 reference 파일의 공식 URL 반드시 출력
+- **템플릿 먼저 패턴**: Block 0에서 템플릿 기반 골격 생성 → 이후 블록에서 점진적 수정
+- **결과물 중심 설계**: 세션 목표 = "완성되는 결과물 1개" (예: `/my-context-sync` 스킬)
+
+## 캠프 운영 현황
+
+- **일정**: 3/3 ~ 3/14, 5세션 × 1.5시간, 헤이그라운드 세미나실
+- **모집 공고 설계**: `docs/plans/2026-02-19-recruitment-design.md`
+- **지원서 Form**: https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
+- **P0 (2/20 前)**: Notion Form UI에 "지원 유형" 질문 직접 추가 (수동 작업)
 
 ## 핵심 규칙
 
