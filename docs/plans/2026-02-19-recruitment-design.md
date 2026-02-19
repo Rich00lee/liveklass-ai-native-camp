@@ -28,7 +28,7 @@
 🎯 결과물: 내 업무 자동화 도구 + 병렬 agent 운용 + 3/14 사내 발표
 
 👇 지원서 (마감 2/21 자정)
-[Notion Form 링크]
+https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 ```
 
 ---
