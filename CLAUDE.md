@@ -58,9 +58,11 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 ## 캠프 운영 현황
 
 - **일정**: 3/3 ~ 3/14, 5세션 × 1.5시간, 헤이그라운드 세미나실
-- **모집 공고 설계**: `docs/plans/2026-02-19-recruitment-design.md`
+- **모집 공고**: Slack 전사 공개 완료 (2026-02-20) — `docs/plans/2026-02-19-recruitment-design.md`
 - **지원서 Form**: https://futureschole.notion.site/30cc7a52db4f810b99d7e703ea841cf6?pvs=105
-- **P0 (2/20 前)**: Notion Form UI에 "지원 유형" 질문 직접 추가 (수동 작업)
+- **마감**: 2/21(토) 자정
+- **Claude 플랜**: 회사 팀 스탠다드 시트 5명 지원 확정 (Vivi 확인 완료)
+- **TODO**: Notion Form "지원 유형" 질문 추가 (수동 작업 — 미확인)
 
 ## 핵심 규칙
 
