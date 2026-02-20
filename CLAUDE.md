@@ -25,7 +25,10 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 ├── session3-automation/     # 3회차: 나만의 업무 자동화 만들기
 │   ├── SKILL.md
 │   └── references/
-└── session4-showcase/       # 4회차: 결과 공유 + 다음 스텝
+├── session4-polish/         # 4회차: 고도화 + 발표 준비
+│   ├── SKILL.md
+│   └── references/
+└── session5-showcase/       # 5회차: 사내 발표
     ├── SKILL.md
     └── references/
 ```
@@ -40,9 +43,9 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 |------|----------|------|------|
 | Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
 | Session 2 | `session2-tools/` | 완성 (2026-02-19 전면 리뉴얼) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
-| Session 3 | `session3-automation/` | 리뉴얼 필요 | STOP PROTOCOL 미강화 |
-| Session 4 | `session4-showcase/` | 재구성 필요 | 실제 Session 5 내용 — 이름 변경 + session4-polish 신규 생성 필요 |
-| Session 5 | (session4-showcase 이름 변경 예정) | 미완성 | |
+| Session 3 | `session3-automation/` | 완성 (2026-02-20 STOP PROTOCOL 강화) | 나만의 Skill 기획→제작→테스트 — 3블록 |
+| Session 4 | `session4-polish/` | 완성 (2026-02-20 신규 생성) | 고도화 + 발표 준비 — 3블록 |
+| Session 5 | `session5-showcase/` | 완성 (2026-02-20 리네임+축소) | 사내 발표 — 2블록 |
 
 ## 핵심 설계 원칙
 
@@ -56,7 +59,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 
 - **일정**: 3/3 ~ 3/14, 5세션 × 1.5시간, 헤이그라운드 세미나실
 - **모집 공고 설계**: `docs/plans/2026-02-19-recruitment-design.md`
-- **지원서 Form**: https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
+- **지원서 Form**: https://futureschole.notion.site/30cc7a52db4f810b99d7e703ea841cf6?pvs=105
 - **P0 (2/20 前)**: Notion Form UI에 "지원 유형" 질문 직접 추가 (수동 작업)
 
 ## 핵심 규칙
