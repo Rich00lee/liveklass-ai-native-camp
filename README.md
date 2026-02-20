@@ -4,7 +4,8 @@
 
 비개발자를 위한 Claude Code 사내 워크숍. 2주간 총 5세션 — 학습 4회 + 사내 발표 1회.
 
-AI Native Camp 1기(2026-02-14, Naver D2SF)에서 영감을 받아, LiveKlass 실무에 맞게 재설계했습니다.
+AI Native Camp 1기(2026-02-14, Naver D2SF)에서 영감을 받아, LiveKlass 실무에 맞게 재설계 한 척 했습니다.
+https://github.com/ai-native-camp/camp-1 의 순도 100% 카피캣 임을 알립니다
 
 ## 일정
 
