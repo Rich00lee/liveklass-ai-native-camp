@@ -44,7 +44,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
 | Session 2 | `session2-tools/` | 완성 (2026-02-19 전면 리뉴얼) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
 | Session 3 | `session3-automation/` | 완성 (2026-02-20 STOP PROTOCOL 강화) | 나만의 Skill 기획→제작→테스트 — 3블록 |
-| Session 4 | `session4-polish/` | 완성 (2026-02-20 신규 생성) | 고도화 + 발표 준비 — 3블록 |
+| Session 4 | `session4-polish/` | 완성 (2026-02-20 신규 생성) | 고도화 + 발표 준비 — 3블록 + 보너스 `advanced-multi-agent.md` (자율 학습용 심화) |
 | Session 5 | `session5-showcase/` | 완성 (2026-02-20 리네임+축소) | 사내 발표 — 2블록 |
 
 ## 핵심 설계 원칙
