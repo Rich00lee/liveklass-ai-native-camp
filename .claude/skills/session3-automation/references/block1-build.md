@@ -1,3 +1,5 @@
+> 공식 문서: https://docs.anthropic.com/ko/docs/claude-code/skills
+
 > 참고: https://docs.anthropic.com/ko/docs/claude-code/skills
 
 ## EXPLAIN
@@ -49,7 +51,7 @@ description: 고객 CS 문의 이메일을 받아 응답 초안을 생성한다.
 
 ## EXECUTE
 
-지금 바로 SKILL.md를 만들어보세요:
+Claude Code에 아래처럼 요청하면, Claude가 직접 파일을 만들어줍니다:
 
 ```bash
 # Claude Code에 입력:
@@ -60,6 +62,8 @@ description: 고객 CS 문의 이메일을 받아 응답 초안을 생성한다.
 - 입력: [어떤 정보를 받나]
 - 출력: [어떤 형태로 결과를 보여줄까]
 ```
+
+→ Claude가 직접 스킬 파일을 생성합니다. 사용자가 직접 파일을 만들 필요 없이, Claude Code에 요청하면 됩니다.
 
 파일이 만들어지면 `/[skill-name]`으로 바로 실행해보세요!
 

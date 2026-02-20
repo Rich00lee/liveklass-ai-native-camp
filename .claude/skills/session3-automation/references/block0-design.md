@@ -1,3 +1,5 @@
+> 공식 문서: https://docs.anthropic.com/ko/docs/claude-code/skills
+
 > 참고: https://docs.anthropic.com/ko/docs/claude-code/skills
 
 ## EXPLAIN
@@ -61,8 +63,19 @@ Claude Code에 입력:
 
 AskUserQuestion으로 물어본다:
 
-질문: "어떤 자동화를 만들어볼 건가요?"
-→ 자유 답변 받기
+```json
+AskUserQuestion({
+  "questions": [{
+    "question": "어떤 자동화를 만들어볼 건가요? 아이디어를 하나 골라주세요.",
+    "header": "자동화 아이디어 선택",
+    "options": [
+      {"label": "위 추천 목록에서 선택", "description": "CS 응답, 파이프라인 리포트, Slack 브리핑 등"},
+      {"label": "직접 아이디어 입력", "description": "나만의 자동화 아이디어가 있어요"}
+    ],
+    "multiSelect": false
+  }]
+})
+```
 
 답변을 바탕으로:
 - 입력/출력이 명확한지 확인

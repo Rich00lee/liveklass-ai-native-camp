@@ -1,3 +1,5 @@
+> 공식 문서: https://docs.anthropic.com/ko/docs/claude-code/skills
+
 > 참고: https://docs.anthropic.com/ko/docs/claude-code/skills
 
 ## EXPLAIN
@@ -50,6 +52,11 @@ SKILL.md에서 [어떤 부분]을 수정해줘.
 이 Skill을 팀원에게 설명하는 사용 가이드를 SKILL.md 하단에 추가해줘.
 비개발자도 바로 쓸 수 있도록 간단하게 작성해줘.
 ```
+
+**Step 4 - 중간 발표 30초 피칭**:
+Claude에게 요청:
+"내가 만든 [Skill 이름]을 30초 안에 소개하는 문장을 만들어줘.
+'[이름]님이 만든 [Skill]은 [입력]을 받아 [결과]를 만들어냅니다' 형식으로."
 
 ## QUIZ
 
