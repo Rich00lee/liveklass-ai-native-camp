@@ -56,6 +56,8 @@ https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 - 사내 비개발자와의 협업에서 인사이트를 얻고 싶은 분
 - Claude Code 플러그인, 에이전트 개발에 관심 있는 분
 
+📂 커리큘럼 미리보기: https://github.com/Rich00lee/liveklass-ai-native-camp
+
 👇 앰버서더 지원하기 (동일 링크, "앰버서더" 선택)
 https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 ```
@@ -86,6 +88,8 @@ https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 이런 분께 추천해요:
 - 사내 비개발자와의 협업에서 인사이트를 얻고 싶은 분
 - Claude Code 플러그인, 에이전트 개발에 관심 있는 분
+
+📂 커리큘럼 미리보기: https://github.com/Rich00lee/liveklass-ai-native-camp
 
 👇 앰버서더 지원하기 (동일 링크, "앰버서더" 선택)
 https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
