@@ -62,6 +62,12 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 - **지원서 Form**: https://futureschole.notion.site/30cc7a52db4f810b99d7e703ea841cf6?pvs=105
 - **마감**: 2/21(토) 자정
 - **Claude 플랜**: 회사 팀 스탠다드 시트 5명 지원 확정 (Vivi 확인 완료)
+- **수료자 리워드** (Day 1 공지 예정):
+  - ✅ 수료 특전: Team Standard 시트 캠프 후 유지 (Vivi 확정 2/23)
+  - ⏳ 우수 참여자: Team Premium 시트 업그레이드 (3월 내 AX 거버넌스 정책 확정 후 결정)
+  - ✅ 최우수 참여자(1등): 별도 선물
+  - 평가 기준: 과제 성실도 + 채널 기여도 + Session 5 청중 투표
+  - 상세: `CAMP_PLAN.md` §8
 - ~~TODO: Notion Form "지원 유형" 질문 추가~~ ✅ 수동 완료 (2026-02-20)
 - **지원서 DB**: Notion Form 응답 DB — `collection://30cc7a52-db4f-81b2-89f7-000b82239287`
 - **최종 선발 결과** (2026-02-23): 일반 6명 + 앰버서더 2명 = 총 8명 확정, 선정 DM 발송 완료
