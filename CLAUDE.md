@@ -64,7 +64,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 - **Claude 플랜**: 회사 팀 스탠다드 시트 5명 지원 확정 (Vivi 확인 완료)
 - **수료자 리워드** (Day 1 공지 예정):
   - ✅ 수료 특전: Team Standard 시트 캠프 후 유지 (Vivi 확정 2/23)
-  - ⏳ 우수 참여자: Team Premium 시트 업그레이드 (3월 내 AX 거버넌스 정책 확정 후 결정)
+  - ✅ 우수 참여자: Team Standard 유지 + 초과 사용분 유상 지원 (2/25 확정)
   - ✅ 최우수 참여자(1등): 별도 선물
   - 평가 기준: 과제 성실도 + 채널 기여도 + Session 5 청중 투표
   - 상세: `CAMP_PLAN.md` §8
