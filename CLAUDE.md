@@ -57,28 +57,34 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 
 ## 캠프 운영 현황
 
-- **일정**: 3/3 ~ 3/14, 5세션 × 1.5시간, 헤이그라운드 세미나실
-- **모집 공고**: Slack 전사 공개 완료 (2026-02-20) — `docs/plans/2026-02-19-recruitment-design.md`
-- **지원서 Form**: https://futureschole.notion.site/30cc7a52db4f810b99d7e703ea841cf6?pvs=105
-- **마감**: 2/21(토) 자정
-- **Claude 플랜**: 회사 팀 스탠다드 시트 5명 지원 확정 (Vivi 확인 완료)
-- **수료자 리워드** (Day 1 공지 예정):
-  - ✅ 수료 특전: Team Standard 시트 캠프 후 유지 (Vivi 확정 2/23)
-  - ✅ 우수 참여자: Team Standard 유지 + 초과 사용분 유상 지원 (2/25 확정)
+- **상태**: 🟢 **캠프 진행 중** (3/3 ~ 3/14)
+- **일정**: 5세션 × 2시간, 헤이그라운드 세미나실
+- **참가자**: 일반 7명 + 앰버서더 2명 = 총 9명
+  - 일반: 김태윤, 김성원, 이보배(Vivi), 최재훈(Terry), 이새봄, 아린, 정영현(Jay)
+  - 앰버서더: 김영호(Ian), 송상수(Eddie)
+- **Claude 플랜**: Team Standard 시트 지원 (Vivi 확인 완료)
+- **수료자 리워드** (Day 1 공지 완료):
+  - ✅ 수료 특전: Team Standard 시트 캠프 후 유지
+  - ✅ 우수 참여자: Team Standard 유지 + 초과 사용분 유상 지원
   - ✅ 최우수 참여자(1등): 별도 선물
   - 평가 기준: 과제 성실도 + 채널 기여도 + Session 5 청중 투표
   - 상세: `CAMP_PLAN.md` §8
-- ~~TODO: Notion Form "지원 유형" 질문 추가~~ ✅ 수동 완료 (2026-02-20)
-- **지원서 DB**: Notion Form 응답 DB — `collection://30cc7a52-db4f-81b2-89f7-000b82239287`
-- **최종 선발 결과**: 일반 7명 + 앰버서더 2명 = 총 9명 확정
-  - 일반: 김태윤, 김성원, 이보배(Vivi), 최재훈(Terry), 이새봄, 아린, 정영현(Jay, 2/26 추가 합류)
-  - 앰버서더: 김영호(Ian), 송상수(Eddie, 일반→앰버서더 전환)
-  - 불참: 최완재(건강 사유), 함석호(일정 사유)
-- **운영 문서 (docs/)**:
-  - `docs/plans/2026-02-19-recruitment-design.md` — 모집공고 + 지원서 설계 + 선발 기준
-  - `docs/participant-messages.md` — 참가자 안내 DM 템플릿 (일반 + 앰버서더) + 발송 체크리스트
-  - `docs/slack-channel-plan.md` — `#lk-ai-camp` 채널 개설 계획 + 첫 메시지 초안
-  - `docs/session1-prep.md` — Session 1 실습 데이터 + 설치 FAQ + 앰버서더 브리핑 + D-7/D-1/당일 체크리스트
+
+### 세션 진행 상태
+
+| 세션 | 날짜 | 상태 |
+|------|------|------|
+| Session 1 — 설치 + 핵심 기능 체험 | 3/3 (화) | 진행 중 |
+| Session 2 — 업무 도구 연결 | 3/5 (목) | 예정 |
+| Session 3 — 나만의 업무 자동화 | 3/9 (월) | 예정 |
+| Session 4 — 고도화 + 발표 준비 | 3/10 (화) | 예정 |
+| Session 5 — 사내 발표 | 3/14 (금) | 예정 |
+
+### 운영 문서 (docs/)
+- `docs/plans/2026-02-19-recruitment-design.md` — 모집공고 + 지원서 설계 + 선발 기준
+- `docs/participant-messages.md` — 참가자 안내 DM 템플릿 + 발송 체크리스트
+- `docs/slack-channel-plan.md` — `#lk-ai-camp` 채널 개설 계획 + 첫 메시지 초안
+- `docs/session1-prep.md` — Session 1 실습 데이터 + 설치 FAQ + 체크리스트
 
 ## 핵심 규칙
 
