@@ -1,147 +1,83 @@
-# Session 1 과제: Slack MCP 연결 가이드
+# Session 1 과제: Slack 연결 + Claude에게 3번 질문하기
 
 > 이 가이드를 따라하면 Claude Code에서 직접 `#lk-ai-camp` 채널에 메시지를 보낼 수 있어요!
 > 막히면 앰버서더(Ian, Eddie)에게 DM 주세요.
 
 ---
 
-## Step 1: mcp.json 파일 열기
+## 과제 1: Slack 커넥터 연결하기
 
-Claude Code 터미널에서 이렇게 말하세요:
+### Claude.ai 커넥터란?
 
-```
-~/.claude/mcp.json 파일을 열어줘
-```
+Claude에는 외부 서비스를 **클릭 몇 번으로** 연결하는 기능이 있어요. mcp.json 파일을 편집하거나 토큰을 복붙할 필요 없이, 설정 화면에서 Slack을 켜기만 하면 됩니다.
 
-> 이 파일이 Claude가 외부 도구(Slack, Notion 등)와 연결하는 설정 파일이에요.
-> 파일이 없으면 Claude가 만들어줍니다.
+### Step 1: Claude 설정에서 Slack 연결
 
----
+1. 브라우저에서 https://claude.ai 접속
+2. 왼쪽 하단 **프로필 아이콘** 클릭 → **Settings** (설정)
+3. **Connected Apps** 또는 **Integrations** 메뉴 선택
+4. **Slack** 항목에서 **Connect** 클릭
+5. LiveKlass 워크스페이스를 선택하고 **Allow** (허용)
 
-## Step 2: Slack MCP 설정 추가
+> 화면이 약간 다를 수 있어요. "Integrations", "Connected Apps", "MCP" 중 하나를 찾아보세요.
 
-Claude에게 이렇게 말하세요:
+### Step 2: Claude Code에서 확인
 
-```
-mcp.json에 아래 Slack 설정을 추가해줘:
-
-서버 이름: slack-ai-native-camp
-command: npx
-args: ["-y", "slack-mcp-server@latest", "--transport", "stdio"]
-환경변수:
-  SLACK_BOT_TOKEN: (채널에 공유된 토큰)
-  SLACK_TEAM_ID: (채널에 공유된 팀 ID)
-```
-
-> **토큰과 팀 ID는 `#lk-ai-camp` 채널 상단 고정 메시지에서 확인하세요.**
-> 보안상 이 문서에는 직접 적지 않습니다.
-
-### 완성된 mcp.json 예시
-
-```json
-{
-  "mcpServers": {
-    "slack-ai-native-camp": {
-      "command": "npx",
-      "args": ["-y", "slack-mcp-server@latest", "--transport", "stdio"],
-      "env": {
-        "SLACK_BOT_TOKEN": "여기에-토큰-붙여넣기",
-        "SLACK_TEAM_ID": "여기에-팀ID-붙여넣기"
-      }
-    }
-  }
-}
-```
-
-> 이미 다른 MCP 설정이 있다면 `"mcpServers": { }` 안에 추가하면 됩니다.
-
----
-
-## Step 3: Claude Code 재시작
-
-설정을 저장한 후 Claude Code를 한번 종료했다가 다시 시작하세요:
+Claude Code 터미널을 열고, 이렇게 말해보세요:
 
 ```
-exit
+#lk-ai-camp 채널의 최근 메시지를 읽어줘
 ```
 
-그리고 다시:
-```
-claude
-```
+채널 메시지가 보이면 연결 성공!
 
----
-
-## Step 4: 연결 확인
-
-Claude Code가 다시 켜지면, 이렇게 물어보세요:
+### Step 3: 채널에 메시지 보내기
 
 ```
-Slack MCP가 잘 연결됐는지 확인해줘
+#lk-ai-camp 채널에 "안녕하세요! [내 이름]입니다. Slack 연결 성공!" 이라고 보내줘
 ```
 
-또는 `/mcp` 명령어로 직접 확인:
-```
-/mcp
-```
-
-`slack-ai-native-camp` 서버가 **connected** 상태면 성공!
-
----
-
-## Step 5: 채널에 메시지 보내기
-
-연결이 됐으면, Claude에게 이렇게 말해보세요:
-
-```
-#lk-ai-camp 채널에 "안녕하세요! [내 이름]입니다. Slack MCP 연결 성공!" 이라고 보내줘
-```
-
-채널에 메시지가 올라오면 과제 1번 완료!
+채널에 메시지가 올라오면 과제 1 완료!
 
 ---
 
 ## 트러블슈팅
 
-### "npx를 찾을 수 없다"는 에러
+### Slack 연결이 설정에 안 보여요
 
-Node.js가 설치되어 있지 않아요. Claude에게:
-```
-Node.js 설치해줘
-```
+Claude Team 플랜이 활성화되어 있는지 확인하세요.
+활성화가 안 됐다면 리치에게 DM 주세요.
 
-### "invalid_auth" 에러
-
-토큰이 잘못 입력된 경우예요:
-1. `#lk-ai-camp` 고정 메시지에서 토큰을 다시 복사
-2. `mcp.json`의 `SLACK_BOT_TOKEN` 값을 다시 붙여넣기
-3. Claude Code 재시작
-
-### "channel_not_found" 에러
+### "채널을 찾을 수 없다"는 에러
 
 채널 이름이 정확한지 확인하세요:
 - ✅ `#lk-ai-camp`
 - ❌ `#lk-ai-native-camp` (다른 채널)
 
-### 그래도 안 되면?
+### 연결은 됐는데 메시지 전송이 안 돼요
 
 Claude에게 이렇게 물어보세요:
 ```
-Slack MCP 연결이 안 돼. 에러 메시지를 확인하고 해결 방법을 알려줘.
+Slack 연결 상태를 확인해줘. 에러가 있으면 알려줘.
 ```
 
-Claude가 에러를 분석하고 해결 방법을 안내해줍니다.
-안 되면 앰버서더(Ian, Eddie)에게 DM 주세요!
+그래도 안 되면 앰버서더(Ian, Eddie)에게 DM 주세요!
 
 ---
 
 ## 과제 2: Claude에게 3번 질문하기
 
-Slack MCP 연결이 됐으면, 이제 본격 과제입니다.
+Slack 연결이 됐으면, 이제 본격 과제입니다.
 
 ### 할 일
 
 Session 1에서 정한 **"해결하고 싶은 과제"** 에 대해 Claude에게 **3번 질문**해보세요.
+
+### 팁: 좋은 질문 만드는 법
+
+- **구체적으로**: "매출 분석해줘" (X) → "이 CSV에서 월별 매출 추이를 그래프로 보여줘" (O)
+- **맥락을 줘**: "나는 CS팀이고, 고객 문의를 주 50건 처리하는데..."
+- **형식을 지정**: "표로 정리해줘", "Slack 메시지 형식으로 써줘"
 
 ### 올릴 내용
 
@@ -153,7 +89,7 @@ Session 1에서 정한 **"해결하고 싶은 과제"** 에 대해 Claude에게 
 
 ### 올리는 방법
 
-Claude에게 직접 시켜도 되고, 직접 올려도 됩니다:
+Claude에게 직접 시키세요:
 
 ```
 #lk-ai-camp 채널에 아래 내용을 보내줘:
