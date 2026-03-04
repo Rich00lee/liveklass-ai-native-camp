@@ -19,16 +19,20 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 ├── session1-onboarding/     # 1회차: 설치 + 핵심 기능 체험
 │   ├── SKILL.md
 │   └── references/
-├── session2-tools/          # 2회차: 업무 도구 연결 (Slack, Notion, 구글시트)
+├── session2-github/         # 2회차: GitHub로 내 설정 관리하기
 │   ├── SKILL.md
 │   └── references/
-├── session3-automation/     # 3회차: 나만의 업무 자동화 만들기
+├── session3-tools/          # 3회차: 업무 도구 연결 + Context Sync (구 Session 2)
+│   ├── SKILL.md
+│   ├── references/
+│   └── templates/
+├── session3-automation/     # (재설계 필요) 나만의 업무 자동화 만들기
 │   ├── SKILL.md
 │   └── references/
-├── session4-polish/         # 4회차: 고도화 + 발표 준비
+├── session4-polish/         # (재설계 필요) 고도화 + 발표 준비
 │   ├── SKILL.md
 │   └── references/
-└── session5-showcase/       # 5회차: 사내 발표
+└── session5-showcase/       # (재설계 필요) 사내 발표
     ├── SKILL.md
     └── references/
 ```
@@ -42,10 +46,10 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | 세션 | 스킬 폴더 | 상태 | 비고 |
 |------|----------|------|------|
 | Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
-| Session 2 | `session2-tools/` | 완성 (2026-02-19 전면 리뉴얼) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
-| Session 3 | `session3-automation/` | 완성 (2026-02-20 STOP PROTOCOL 강화) | 나만의 Skill 기획→제작→테스트 — 3블록 |
-| Session 4 | `session4-polish/` | 완성 (2026-02-20 신규 생성) | 고도화 + 발표 준비 — 3블록 + 보너스 `advanced-multi-agent.md` (자율 학습용 심화) |
-| Session 5 | `session5-showcase/` | 완성 (2026-02-20 리네임+축소) | 사내 발표 — 2블록 |
+| Session 2 | `session2-github/` | 완성 (2026-03-04 신규) | GitHub로 내 설정 관리 — 3블록 (Git 기본, 첫 push, 동기화) |
+| Session 3 | `session3-tools/` | 완성 (구 session2-tools, 이동) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
+| Session 4 | `session3-automation/` | 재설계 필요 | (구 Session 3) 나만의 Skill 기획→제작→테스트 |
+| Session 5 | `session5-showcase/` | 재설계 필요 | 사내 발표 |
 
 ## 핵심 설계 원칙
 
@@ -74,10 +78,10 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 
 | 세션 | 날짜 | 상태 |
 |------|------|------|
-| Session 1 — 설치 + 핵심 기능 체험 | 3/3 (화) | 진행 중 |
-| Session 2 — 업무 도구 연결 | 3/5 (목) | 예정 |
-| Session 3 — 나만의 업무 자동화 | 3/9 (월) | 예정 |
-| Session 4 — 고도화 + 발표 준비 | 3/10 (화) | 예정 |
+| Session 1 — 설치 + 핵심 기능 체험 | 3/3 (화) | ✅ 완료 |
+| Session 2 — GitHub로 내 설정 관리하기 | 3/5 (목) | 예정 |
+| Session 3 — 업무 도구 연결 + Context Sync | 3/9 (월) | 예정 |
+| Session 4 — (재설계 필요) | 3/10 (화) | 예정 |
 | Session 5 — 사내 발표 | 3/14 (금) | 예정 |
 
 ### 운영 문서 (docs/)

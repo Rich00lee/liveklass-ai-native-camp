@@ -1,9 +1,9 @@
 ---
-name: session2-tools
-description: LiveKlass AI Native Camp 2회차. 나만의 Context Sync 스킬 만들기 — Slack, Notion, Google Sheets에서 컨텍스트를 수집하여 하나의 문서로 만드는 스킬을 직접 구축한다. "2회차", "Session 2", "MCP 연결", "context sync", "컨텍스트 싱크", "스킬 만들기" 요청에 사용.
+name: session3-tools
+description: LiveKlass AI Native Camp 3회차. 나만의 Context Sync 스킬 만들기 — Slack, Notion, Google Sheets에서 컨텍스트를 수집하여 하나의 문서로 만드는 스킬을 직접 구축한다. "3회차", "Session 3", "MCP 연결", "context sync", "컨텍스트 싱크", "스킬 만들기" 요청에 사용.
 ---
 
-# Session 2: 나만의 Context Sync 스킬 만들기
+# Session 3: 나만의 Context Sync 스킬 만들기
 
 이 스킬이 호출되면 아래 **STOP PROTOCOL**을 반드시 따른다.
 
