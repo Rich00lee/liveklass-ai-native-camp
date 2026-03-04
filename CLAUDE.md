@@ -53,7 +53,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 
 ## 핵심 설계 원칙
 
-- **STOP PROTOCOL**: 각 블록 = Phase A(설명+실행 안내) → STOP → Phase B(퀴즈+다음 블록 이동) 2턴 구조 필수. `session1-onboarding/SKILL.md` 및 `session2-tools/SKILL.md` 참고
+- **STOP PROTOCOL**: 각 블록 = Phase A(설명+실행 안내) → STOP → Phase B(퀴즈+다음 블록 이동) 2턴 구조 필수. `session1-onboarding/SKILL.md` 및 `session3-tools/SKILL.md` 참고
 - **금지 사항 명시**: STOP 전 AskUserQuestion 금지 / 퀴즈 금지 / "실행했나요?" 금지 / 다음 블록 언급 금지 — 미명시 시 AI가 위반함
 - **공식 문서 URL 필수**: 각 블록 Phase A 시작 시 reference 파일의 공식 URL 반드시 출력
 - **템플릿 먼저 패턴**: Block 0에서 템플릿 기반 골격 생성 → 이후 블록에서 점진적 수정
