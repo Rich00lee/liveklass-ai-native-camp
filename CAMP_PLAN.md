@@ -132,7 +132,7 @@
 - [ ] GitHub 계정 (없으면 세션 중 함께 생성)
 
 **사전 준비 (진행자)**:
-- [ ] Slack MCP 설치 단계별 가이드 채널에 게시 (Session 1 과제용)
+- [x] Slack MCP 설치 단계별 가이드 채널에 게시 (Session 1 과제용)
 - [ ] `gh` CLI 설치 트러블슈팅 FAQ 준비
 - [ ] `.gitignore` 템플릿 준비
 

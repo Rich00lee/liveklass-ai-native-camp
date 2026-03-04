@@ -89,6 +89,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 - `docs/participant-messages.md` — 참가자 안내 DM 템플릿 + 발송 체크리스트
 - `docs/slack-channel-plan.md` — `#lk-ai-camp` 채널 개설 계획 + 첫 메시지 초안
 - `docs/session1-prep.md` — Session 1 실습 데이터 + 설치 FAQ + 체크리스트
+- `docs/slack-mcp-guide.md` — Session 1 과제: Slack 커넥터 연결 + Claude에게 3번 질문하기 가이드
 
 ## 핵심 규칙
 
