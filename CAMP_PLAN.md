@@ -118,8 +118,9 @@
 
 | 시간 | 내용 | 비고 |
 |------|------|------|
-| 20:00 | 지난 세션 복습 + 과제 공유 | Slack MCP 연결 경험 + 베스트 Q&A 공유 |
-| 20:15 | Git & GitHub 기본 개념 | `/session2-github` Block 0 |
+| 20:00 | 복습 — 과제 공유 + MCP 점검 | Slack MCP 연결 경험 공유 + MCP 연결 상태 3단계 점검 |
+| 20:07 | Git 맛보기 — 교재 최신화 | `git pull`로 커리큘럼 최신화 체험 (Block 0 사전 경험) |
+| 20:10 | Git & GitHub 기본 개념 | `/session2-github` Block 0 |
 | 20:35 | GitHub 계정 만들기 + gh CLI 로그인 | Block 0 실습 |
 | 20:55 | 내 설정을 Private repo에 올리기 | Block 1 — .gitignore + 첫 push |
 | 21:25 | 회사 ↔ 집 동기화 워크플로우 | Block 2 — clone/pull/push 루틴 |

@@ -46,7 +46,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | 세션 | 스킬 폴더 | 상태 | 비고 |
 |------|----------|------|------|
 | Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
-| Session 2 | `session2-github/` | 완성 (2026-03-04 신규) | GitHub로 내 설정 관리 — 3블록 (Git 기본, 첫 push, 동기화) |
+| Session 2 | `session2-github/` | 완성 (2026-03-05 업데이트) | GitHub로 내 설정 관리 — 복습(MCP 점검 + git pull 체험) + 3블록 (Git 기본, 첫 push, 동기화) |
 | Session 3 | `session3-tools/` | 완성 (구 session2-tools, 이동) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
 | Session 4 | `session3-automation/` | 재설계 필요 | (구 Session 3) 나만의 Skill 기획→제작→테스트 |
 | Session 5 | `session5-showcase/` | 재설계 필요 | 사내 발표 |
