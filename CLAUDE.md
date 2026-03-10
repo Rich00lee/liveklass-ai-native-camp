@@ -29,7 +29,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 ├── session3-automation/     # (재설계 필요) 나만의 업무 자동화 만들기
 │   ├── SKILL.md
 │   └── references/
-├── session4-polish/         # (재설계 필요) 고도화 + 발표 준비
+├── session4-pr-showcase/    # 4회차: 산출물 PR 제출 + 피어리뷰
 │   ├── SKILL.md
 │   └── references/
 └── session5-showcase/       # (재설계 필요) 사내 발표
@@ -48,8 +48,8 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | Session 1 | `session1-onboarding/` | 완성 | STOP PROTOCOL 원형 |
 | Session 2 | `session2-github/` | 완성 (2026-03-05 업데이트) | GitHub로 내 설정 관리 — 복습(MCP 점검 + git pull 체험) + 3블록 (Git 기본, 첫 push, 동기화) |
 | Session 3 | `session3-tools/` | 완성 (구 session2-tools, 이동) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
-| Session 4 | `session3-automation/` | 재설계 필요 | (구 Session 3) 나만의 Skill 기획→제작→테스트 |
-| Session 5 | `session5-showcase/` | 재설계 필요 | 사내 발표 |
+| Session 4 | `session4-pr-showcase/` | 완성 (2026-03-10) | 산출물 PR 제출 + 피어리뷰 — 4블록 (세팅, 작성, PR, 리뷰) |
+| Session 5 | `session5-showcase/` | 재설계 필요 | 사내 공유회 (3/13) |
 
 ## 핵심 설계 원칙
 
@@ -79,10 +79,10 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | 세션 | 날짜 | 상태 |
 |------|------|------|
 | Session 1 — 설치 + 핵심 기능 체험 | 3/3 (화) | ✅ 완료 |
-| Session 2 — GitHub로 내 설정 관리하기 | 3/5 (목) | 예정 |
-| Session 3 — 업무 도구 연결 + Context Sync | 3/9 (월) | 예정 |
-| Session 4 — (재설계 필요) | 3/10 (화) | 예정 |
-| Session 5 — 사내 발표 | 3/14 (금) | 예정 |
+| Session 2 — GitHub로 내 설정 관리하기 | 3/5 (목) | ✅ 완료 |
+| Session 3 — 업무 도구 연결 + Context Sync | 3/9 (월) | ✅ 완료 |
+| Session 4 — 산출물 PR 제출 + 피어리뷰 | 3/10 (화) | 예정 (오늘) |
+| Session 5 — 사내 공유회 | 3/13 (목) 10:15~11:45 | 예정 |
 
 ### 운영 문서 (docs/)
 - `docs/plans/2026-02-19-recruitment-design.md` — 모집공고 + 지원서 설계 + 선발 기준
