@@ -6,3 +6,4 @@ __pycache__/
 *.pyc
 .claude/settings.local.json
 sync/
+lk-ai-camp-showcase/
