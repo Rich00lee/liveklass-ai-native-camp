@@ -217,7 +217,7 @@ AI-Native 서비스를 만들어야 한다
 
 # 이보배 (Vivi) — /ps 워크플로우
 
-![w:520](vivi-flow.png)
+![w:700](vivi-flow.png)
 
 `/ps 홍길동` → 10단계 자동 실행. 이상 감지 시에만 사용자 확인
 
@@ -236,14 +236,9 @@ AI-Native 서비스를 만들어야 한다
 
 # 이보배 (Vivi) — 연동 서비스 구조
 
-![w:700](vivi-services.png)
+![w:800](vivi-services.png)
 
-| 서비스 | 연동 방식 | 역할 |
-|------|:---:|------|
-| 그리팅 ATS | OpenAPI | 후보자 정보 + 이력서 조회 |
-| Google Calendar | MCP | 빈 시간 탐색 + 일정 등록 |
-| Apple Messages | AppleScript + SQLite | SMS 우선 발송 + 답변 감지 |
-| Notion | MCP | 맞춤 질문 + 인터뷰 기록지 생성 |
+**4개 외부 서비스를 비개발자가 직접 연결** — OpenAPI · MCP · AppleScript + SQLite
 
 ---
 
