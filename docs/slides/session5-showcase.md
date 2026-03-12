@@ -108,7 +108,7 @@ AI-Native 서비스를 만들어야 한다
 
 # 김성원 (Ethan) — 검증 파이프라인
 
-![w:1000](expansion-flow.png)
+![w:800](expansion-flow.png)
 
 ---
 
