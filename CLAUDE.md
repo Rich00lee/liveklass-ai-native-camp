@@ -49,7 +49,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | Session 2 | `session2-github/` | 완성 (2026-03-05 업데이트) | GitHub로 내 설정 관리 — 복습(MCP 점검 + git pull 체험) + 3블록 (Git 기본, 첫 push, 동기화) |
 | Session 3 | `session3-tools/` | 완성 (구 session2-tools, 이동) | Context Sync 스킬 만들기 — 6블록 + templates/ 포함 |
 | Session 4 | `session4-pr-showcase/` | 완성 (2026-03-10) | 산출물 PR 제출 + 피어리뷰 — 4블록 (세팅, 작성, PR, 리뷰) |
-| Session 5 | `session5-showcase/` | 장표 제작 중 (2026-03-11) | 사내 공유회 (3/13 금) — Marp 장표 + docs/slides/ |
+| Session 5 | `session5-showcase/` | 장표 완성 + Pages 배포 (2026-03-12) | 사내 공유회 (3/13 금) — Marp 장표 + GitHub Pages 배포 |
 
 ## 핵심 설계 원칙
 
@@ -61,7 +61,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 
 ## 캠프 운영 현황
 
-- **상태**: 🟢 **캠프 진행 중** (3/3 ~ 3/13)
+- **상태**: ✅ **캠프 완료** (3/3 ~ 3/13)
 - **일정**: 5세션 × 2시간, 헤이그라운드 세미나실
 - **참가자**: 일반 7명 + 앰버서더 2명 = 총 9명
   - 일반: 김태윤, 김성원, 이보배(Vivi), 최재훈(Terry), 이새봄, 아린, 정영현(Jay)
@@ -82,7 +82,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | Session 2 — GitHub로 내 설정 관리하기 | 3/5 (목) | ✅ 완료 |
 | Session 3 — 업무 도구 연결 + Context Sync | 3/9 (월) | ✅ 완료 |
 | Session 4 — 산출물 PR 제출 + 피어리뷰 | 3/10 (화) | ✅ 완료 |
-| Session 5 — 사내 공유회 | 3/13 (금) 10:15~11:45 | 예정 |
+| Session 5 — 사내 공유회 | 3/13 (금) 10:15~11:45 | ✅ 완료 |
 
 ### 운영 문서 (docs/)
 - `docs/plans/2026-02-19-recruitment-design.md` — 모집공고 + 지원서 설계 + 선발 기준
