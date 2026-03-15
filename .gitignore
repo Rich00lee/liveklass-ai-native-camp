@@ -7,3 +7,4 @@ __pycache__/
 .claude/settings.local.json
 sync/
 lk-ai-camp-showcase/
+HANDOVER*.md

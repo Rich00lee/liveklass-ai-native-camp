@@ -41,7 +41,7 @@ AI랑 같이 학습하기만 하면, 누구나 할 수 있다고.
 - 3/13 사내 발표
 
 👇 지원서 (마감 2/21 자정)
-https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
+[내부 링크 제거]
 
 궁금한 점은 스레드나 DM 주세요 :)
 
@@ -59,7 +59,7 @@ https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 📂 커리큘럼 미리보기: https://github.com/Rich00lee/liveklass-ai-native-camp
 
 👇 앰버서더 지원하기 (동일 링크, "앰버서더" 선택)
-https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
+[내부 링크 제거]
 ```
 
 ---
@@ -92,7 +92,7 @@ https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
 📂 커리큘럼 미리보기: https://github.com/Rich00lee/liveklass-ai-native-camp
 
 👇 앰버서더 지원하기 (동일 링크, "앰버서더" 선택)
-https://www.notion.so/futureschole/30cc7a52db4f80489951e009c1ca85a8
+[내부 링크 제거]
 ```
 
 ---

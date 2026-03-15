@@ -26,13 +26,13 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 │   ├── SKILL.md
 │   ├── references/
 │   └── templates/
-├── session3-automation/     # (재설계 필요) 나만의 업무 자동화 만들기
+├── session3-automation/     # (미사용 — 2기 기획 시 결정)
 │   ├── SKILL.md
 │   └── references/
 ├── session4-pr-showcase/    # 4회차: 산출물 PR 제출 + 피어리뷰
 │   ├── SKILL.md
 │   └── references/
-└── session5-showcase/       # (재설계 필요) 사내 발표
+└── session5-showcase/       # 5회차: 사내 공유회 (완성)
     ├── SKILL.md
     └── references/
 ```
@@ -83,6 +83,12 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 | Session 3 — 업무 도구 연결 + Context Sync | 3/9 (월) | ✅ 완료 |
 | Session 4 — 산출물 PR 제출 + 피어리뷰 | 3/10 (화) | ✅ 완료 |
 | Session 5 — 사내 공유회 | 3/13 (금) 10:15~11:45 | ✅ 완료 |
+
+### lk-ai-camp-showcase (Submodule)
+- **위치**: `lk-ai-camp-showcase/` (git submodule)
+- **역할**: 참가자 산출물 PR 제출 + 피어리뷰 레포
+- **보안 처리 (2026-03-13 완료)**: 내부 URL, 이메일, Notion DB ID, Slack 채널 ID, macOS 사용자 경로 마스킹
+- **제출 현황**: bom, arin, ethan, terry, theo, vivi, Jay-jungyounghun, sangsu (총 8명)
 
 ### 운영 문서 (docs/)
 - `docs/plans/2026-02-19-recruitment-design.md` — 모집공고 + 지원서 설계 + 선발 기준
