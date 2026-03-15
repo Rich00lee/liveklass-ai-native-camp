@@ -1,9 +1,11 @@
 ---
 name: session3-automation
-description: LiveKlass AI Native Camp 3회차. 나만의 업무 자동화 Skill 기획 → 제작 → 테스트. "3회차", "Session 3", "자동화 만들기", "스킬 만들기" 요청에 사용.
+description: "[미사용 — session3-tools로 대체됨] 원안 3회차. 나만의 업무 자동화 Skill 기획 → 제작 → 테스트. 2기 기획 시 참고용."
 ---
 
-# Session 3: 나만의 업무 자동화 만들기
+# [미사용] Session 3 원안: 나만의 업무 자동화 만들기
+
+> 이 스킬은 1기에서 `session3-tools`(업무 도구 연결 + Context Sync)로 대체되었습니다. 2기 기획 시 참고용으로 보존합니다.
 
 이 스킬이 호출되면 아래 **STOP PROTOCOL**을 반드시 따른다.
 

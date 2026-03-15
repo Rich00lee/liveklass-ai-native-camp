@@ -26,13 +26,18 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 │   ├── SKILL.md
 │   ├── references/
 │   └── templates/
-├── session3-automation/     # (미사용 — 2기 기획 시 결정)
-│   ├── SKILL.md
-│   └── references/
 ├── session4-pr-showcase/    # 4회차: 산출물 PR 제출 + 피어리뷰
 │   ├── SKILL.md
 │   └── references/
-└── session5-showcase/       # 5회차: 사내 공유회 (완성)
+├── session5-showcase/       # 5회차: 사내 공유회 (완성)
+│   ├── SKILL.md
+│   └── references/
+│
+│   # ── 미사용 (1기에서 대체됨, 2기 기획 시 참고용) ──
+├── session3-automation/     # 원안 3회차: 나만의 업무 자동화 → session3-tools로 대체
+│   ├── SKILL.md
+│   └── references/
+└── session4-polish/         # 원안 4회차: 고도화 + 발표 준비 → session4-pr-showcase로 대체
     ├── SKILL.md
     └── references/
 ```

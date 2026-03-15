@@ -1,9 +1,11 @@
 ---
 name: session4-polish
-description: LiveKlass AI Native Camp 4회차. Session 3에서 만든 Skill을 고도화하고 발표를 준비한다. "4회차", "Session 4", "고도화", "피칭", "발표 준비" 요청에 사용.
+description: "[미사용 — session4-pr-showcase로 대체됨] 원안 4회차. 고도화 + 발표 준비. 2기 기획 시 참고용."
 ---
 
-# Session 4: 고도화 + 발표 준비
+# [미사용] Session 4 원안: 고도화 + 발표 준비
+
+> 이 스킬은 1기에서 `session4-pr-showcase`(산출물 PR 제출 + 피어리뷰)로 대체되었습니다. 2기 기획 시 참고용으로 보존합니다.
 
 이 스킬이 호출되면 아래 **STOP PROTOCOL**을 반드시 따른다.
 

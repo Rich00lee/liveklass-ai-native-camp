@@ -48,7 +48,7 @@ npx skills add liveklass/liveklass-ai-native-camp --agent claude-code --yes
 ## 디렉토리 구조
 
 ```
-.claude/skills/        -- 5개 세션 스킬 (커리큘럼 본체)
+.claude/skills/        -- 5개 세션 스킬 (커리큘럼 본체) + 미사용 원안 2개 (참고용)
 docs/slides/           -- 발표 자료
 lk-ai-camp-showcase/   -- 참가자 산출물
 RETROSPECTIVE.md       -- 캠프 회고
