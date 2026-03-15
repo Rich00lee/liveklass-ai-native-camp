@@ -71,13 +71,7 @@ LiveKlass AI Native Camp — 비개발자를 위한 Claude Code 사내 워크숍
 - **참가자**: 일반 7명 + 앰버서더 2명 = 총 9명
   - 일반: 김태윤, 김성원, 이보배(Vivi), 최재훈(Terry), 이새봄, 아린, 정영현(Jay)
   - 앰버서더: 김영호(Ian), 송상수(Eddie)
-- **Claude 플랜**: Team Standard 시트 지원 (Vivi 확인 완료)
-- **수료자 리워드** (Day 1 공지 완료):
-  - ✅ 수료 특전: Team Standard 시트 캠프 후 유지
-  - ✅ 우수 참여자: Team Standard 유지 + 초과 사용분 유상 지원
-  - ✅ 최우수 참여자(1등): 별도 선물
-  - 평가 기준: 과제 성실도 + 채널 기여도 + Session 5 청중 투표
-  - 상세: `CAMP_PLAN.md` §8
+- **Claude 플랜**: Team Standard 시트 전사 지원 (캠프 후 전사 정책으로 전환됨)
 
 ### 세션 진행 상태
 
