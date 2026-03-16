@@ -2,6 +2,10 @@
 
 > 2주 후, 당신 팀의 업무 방식은 영구적으로 바뀐다.
 
+**[발표 장표 보기 (슬라이드쇼)](https://rich00lee.github.io/liveklass-ai-native-camp/)** · **[PDF 다운로드](docs/slides/session5-showcase-public-blurred.pdf)**
+
+---
+
 비개발자를 위한 Claude Code 워크숍 커리큘럼. 오픈소스(open-source).
 
 ## 이게 뭔가요?
