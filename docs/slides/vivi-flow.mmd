@@ -1,0 +1,11 @@
+flowchart LR
+    A["/ps 홍길동"] --> B["📋 후보자 수집\nATS 정보 + 이력서"]
+    B --> C["📅 일정 조율\n빈 시간 → 제안 메시지\n→ SMS 발송"]
+    C --> D{"답변\n분류"}
+    D -->|수락| E["✅ 확정 처리\n확정 메시지 + 캘린더\n+ 노션 기록지"]
+    D -->|시간 변경| C
+    D -->|거절| F["마무리"]
+
+    style A fill:#E3F2FD,stroke:#2196F3,stroke-width:2px
+    style D fill:#FFF3E0,stroke:#FF9800,stroke-width:2px
+    style E fill:#E8F5E9,stroke:#4CAF50,stroke-width:2px
