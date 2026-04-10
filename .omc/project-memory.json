@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775797640338,
+  "projectRoot": "/Users/liveklass/liveklass-ai-native-camp",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "season1": {
+      "path": "season1",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1775797640333,
+      "keyFiles": [
+        "CAMP_PLAN.md",
+        "CLAUDE.md",
+        "RETROSPECTIVE.md"
+      ]
+    },
+    "season2": {
+      "path": "season2",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775797640334,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "season1/docs": {
+      "path": "season1/docs",
+      "purpose": "Documentation",
+      "fileCount": 6,
+      "lastAccessed": 1775797640335,
+      "keyFiles": [
+        "index.html",
+        "participant-messages.md",
+        "session1-prep.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
