@@ -2,11 +2,22 @@
 
 > 2주 후, 당신 팀의 업무 방식은 영구적으로 바뀐다.
 
-**[발표 장표 보기 (슬라이드쇼)](https://rich00lee.github.io/liveklass-ai-native-camp/)** · **[PDF 다운로드](docs/slides/session5-showcase-public-blurred.pdf)**
-
 ---
 
 비개발자를 위한 Claude Code 워크숍 커리큘럼. 오픈소스(open-source).
+
+## Seasons
+
+| Season | 부제 | 핵심 | 상태 |
+|--------|------|------|------|
+| [Season 1](season1/) | Skills as Curriculum | 도구 온보딩 → 자동화 | 완료 (2026-03, 9명) |
+| [Season 2](season2/) | Thinking with AI | 멘탈 모델 전환 → 문제 해결 | 준비 중 |
+
+---
+
+## Season 1: Skills as Curriculum
+
+**[발표 장표 보기 (슬라이드쇼)](https://rich00lee.github.io/liveklass-ai-native-camp/)** · **[PDF 다운로드](season1/docs/slides/session5-showcase-public-blurred.pdf)**
 
 ## 이게 뭔가요?
 
@@ -52,11 +63,15 @@ npx skills add liveklass/liveklass-ai-native-camp --agent claude-code --yes
 ## 디렉토리 구조
 
 ```
-.claude/skills/        -- 5개 세션 스킬 (커리큘럼 본체) + 미사용 원안 2개 (참고용)
-docs/slides/           -- 발표 자료
-lk-ai-camp-showcase/   -- 참가자 산출물
-RETROSPECTIVE.md       -- 캠프 회고
-CAMP_PLAN.md           -- 운영 기획서 (참고용)
+season1/                   -- Season 1: Skills as Curriculum
+  ├── docs/slides/         -- 발표 자료
+  ├── lk-ai-camp-showcase/ -- 참가자 산출물
+  ├── CLAUDE.md            -- Season 1 프로젝트 설정
+  ├── RETROSPECTIVE.md     -- 캠프 회고
+  └── CAMP_PLAN.md         -- 운영 기획서 (참고용)
+season2/                   -- Season 2: Thinking with AI
+  └── README.md            -- 시즌 개요 (커리큘럼 TBD)
+.claude/skills/            -- 5개 세션 스킬 (커리큘럼 본체)
 ```
 
 ## 커스터마이징 가이드
